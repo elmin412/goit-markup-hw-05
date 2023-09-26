@@ -829,7 +829,7 @@ input [type="checkbox"] + span {
     opacity: 0;
 }
 
-.store-input:checked + .adamant .thoughtless {
+.store-input:checked + .adamant {
     opacity: 1;
     background-color: #404bbf;
     border: none;
