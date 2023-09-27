@@ -767,7 +767,7 @@ ul {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.conceive :focus {
+.yield + .conceive :focus {
     border-color: #4D5AE5;
 }
 
@@ -797,13 +797,6 @@ ul {
 }
 
 
-input [type="checkbox"] + span {
-    background-color: #404BBF;
-    border: none;
-    fill: #f4f4fd;
-
-} 
-
 .smooth {
     color: #4d5ae5;
 }
@@ -825,14 +818,11 @@ input [type="checkbox"] + span {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.thoughtless {
-    opacity: 0;
-}
 
-.store-input:checked + .adamant .thoughtless {
-    opacity: 1;
+.store:checked + .spotless .adamant {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
+
 
