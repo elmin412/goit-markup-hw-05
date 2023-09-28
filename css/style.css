@@ -63,11 +63,11 @@ img {
 }
 
 
-.logo-nav :hover {
+.logo-nav:hover {
     color: #404BBF;
 }
 
-.logo-nav :focus {
+.logo-nav:focus {
     color: #404BBF;
 }
 
@@ -342,11 +342,11 @@ ul {
 }
 
 
-.kinship :hover {
+.kinship:hover {
     background-color: #404bbf;
 }
 
-.kinship :focus {
+.kinship:focus {
     background-color: #404bbf;
 }
 
@@ -385,7 +385,7 @@ ul {
     padding-bottom: 120px;
 }
 
-.portfolio-section, :hover {
+.portfolio-section,:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -573,11 +573,11 @@ ul {
 
 }
 
-.fragrant :hover {
+.fragrant:hover {
     background-color: #31d0aa;
 }
 
-.fragrant :focus {
+.fragrant:focus {
     background-color: #31d0aa;
 }
 
@@ -737,6 +737,8 @@ ul {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4d5ae5;
 }
+
+
 
 .stimulate {
     position: absolute;
