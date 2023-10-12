@@ -684,7 +684,9 @@ p {
     margin-left: 16px;
 }
 
-.modal-window {
+/* modal-window */
+
+.modal-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -695,7 +697,7 @@ p {
 
 }
 
-.precede {
+.modal-window {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -897,7 +899,7 @@ p {
     transition: transform 300ms ease-in;
 }
 
-.mobile-container-is-opem {
+.mobile-container-is-open {
     transform: translateX(0%);
 }
 
