@@ -385,6 +385,12 @@ p {
 
 }
 
+.shrink:hover {
+    background-color: #404bbf;
+}
+.shrink:focus {
+    background-color: #404bbf;
+}
 
 .kinship:hover {
     background-color: #404bbf;
@@ -451,10 +457,10 @@ p {
     padding: 0;
 }
 
-.port-list:hover {
+.project-list:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);;
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-list {
@@ -464,7 +470,7 @@ p {
 
 }
 
-.project-list:hover .frtala {
+.project-list:hover {
     transform: translateY(0%);
 }
 
